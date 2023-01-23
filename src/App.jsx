@@ -1,9 +1,7 @@
-import "./App.css";
-
 function App() {
   return (
-    <div className="App">
-      <h1>Yet another web client consuming the Poke API</h1>
+    <div className="flex justify-center items-center w-full min-h-screen">
+      <h1 className="text-6xl">Yet another web Pokedex using the Poke API</h1>
     </div>
   );
 }
