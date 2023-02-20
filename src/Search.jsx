@@ -13,7 +13,7 @@ const Search = () => {
             <input
               className="block border-2 border-cyan-800 text-cyan-800 text-2xl rounded p-8 w-full h-20"
               id="pokemon-name"
-              type="text"
+              type="search"
               name="pokemon-name"
               placeholder="Type a Pokemon name or ID to search for it"
               value={pokemonName}
